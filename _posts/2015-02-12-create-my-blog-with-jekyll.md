@@ -3,7 +3,7 @@ layout: post
 title:  "github 第一篇日志"
 date:   2015-06-29
 categories: coding
-##excerpt: Jekyll Github 搭建静态博客 blog 高浩阳 使用多说评论系统 以及Jia分享插件 参考git教程
+excerpt: Jekyll Github 搭建静态博客 blog 高浩阳 使用多说评论系统 以及Jia分享插件 参考git教程
 ---
 
 * content
