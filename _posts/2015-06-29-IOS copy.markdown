@@ -8,3 +8,10 @@ categories: Coding
 问题起源，群组聊天模块中，踢人场景。在子页面（踢人页面）返回时要刷新父页面中的当前群的人数。
 此时，人数的UILabel 这个View 恰巧在头像列表中，要刷新头像，必然要使用
 
+{% highlight ruby %}
+for(UIView *uiView in subViews)\{
+    if (uiView.tag == 10) \{
+        continue;
+    \}
+    \[uiView removeFromSuperview\];
+\}
