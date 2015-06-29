@@ -9,6 +9,11 @@ categories: Coding
 此时，人数的UILabel 这个View 恰巧在头像列表中，要刷新头像，必然要使用
 
 {% highlight ruby %}
-
-打法的沙发垫
+for(UIView *uiView in subViews){
+    if (uiView.tag == 10) {
+        continue;
+    }
+    [uiView removeFromSuperview];
+}
+{% endhighlight %}
 
