@@ -10,5 +10,5 @@ categories: Coding
 
 {% highlight ruby %}
 
-    \[uiView removeFromSuperview\];
+打法的沙发垫
 
