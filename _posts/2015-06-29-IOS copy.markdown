@@ -17,3 +17,5 @@ for(UIView *uiView in subViews){
 }
 {% endhighlight %}
 
+而其中uiView.tag == 10 这句是需要提前声明的，开始我把它放在了init里。显然不起作用。因为这个时候View还没有加载好呢，放在viewDidLoad里就达到目的了。
+
